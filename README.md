@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub - QR Code Component](https://github.com/Ismaellerakotoson/qr-code-component.git)
 
 ## My process
 
@@ -36,6 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) - JS library & build tool
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
 - [qrcode.react](https://www.npmjs.com/package/qrcode.react) - For QR code generation
+- [Docker](https://www.docker.com/) - Containerization for production build and deployment
 
 ### What I learned
 
