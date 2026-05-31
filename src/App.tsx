@@ -1,5 +1,4 @@
 import "./App.css";
-import { QRCodeSVG } from "qrcode.react";
 import grcodeimg from "./assets/image-qr-code.png";
 
 function App() {
