@@ -1,24 +1,22 @@
 import "./App.css";
 import { QRCodeSVG } from "qrcode.react";
+import grcodeimg from "./assets/image-qr-code.png";
 
 function App() {
-  const txtStyles = "text-color max-w-xs";
   return (
     <div className="flex background-color min-h-screen text-black items-center justify-center">
-      <div className="bg-white p-4 rounded-xl max-min-width">
-        <div className="bg-blue-500 flex items-center justify-center p-10 rounded-xl">
-          <div className="p-8">
-            <QRCodeSVG value="https://frontendmentor.io" 
-            fgColor="#FFFFFF"
-            bgColor="transparent"/>
-          </div>
+      <div className="bg-white p-4 rounded-xl max-w-xs">
+        <div className=" flex items-center justify-center">
+          <img src={grcodeimg} alt="QrCodeImg" className="rounded-xl"/>
         </div>
         <div className="text-center mt-5">
           <div className="font-bold mb-3">
-            <h1 className={txtStyles}>Improve your front-end skills by building projects</h1>
+            <h1 className="text-color max-w-[22ch] mx-auto">
+              Improve your front-end skills by building projects
+            </h1>
           </div>
           <div className="text-sm font-normal">
-            <p className={txtStyles}>
+            <p className="text-color max-w-[30ch] mx-auto">
               Scan the QR-code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
