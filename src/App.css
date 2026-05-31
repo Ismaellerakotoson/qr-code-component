@@ -1,18 +1,12 @@
 .background-color{
     background-color: hsl(212, 45%, 89%);
 }
-.blackground-white{
-    background-color: hsl(0, 0%, 100%);
-}
 .title-color{
     color: hsl(218, 44%, 22%);
 }
 .text-color{
     color: hsl(216, 15%, 48%);
 }
-.max-width{
-    max-width: 25%;
-}
-.min-width{
-    min-width: 280px;
+.max-min-width{
+    width: clamp(280px, 30vw, 400px);
 }
