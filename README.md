@@ -40,16 +40,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Working on this project helped me get more comfortable with setting up a React + Vite project from scratch and integrating Tailwind CSS for utility-first styling. Using qrcode.react made QR code generation straightforward — just pass a value prop and the component handles the rest.
+Working on this project helped me get more comfortable with setting up a React + Vite project from scratch and integrating Tailwind CSS for utility-first styling.
 
 Here, I also learned how to use max-w-xs to control text width instead of forcing line breaks with <br>, which results in a cleaner and more responsive layout.
 
 To see how you can add code snippets, see below:
 
 ```jsx
-import { QRCodeSVG } from 'qrcode.react';
-
-<QRCodeSVG value="https://www.frontendmentor.io" size={150} />
 
 <h1 className="title-color max-w-xs">Improve your front-end skills by building projects</h1>
 ```

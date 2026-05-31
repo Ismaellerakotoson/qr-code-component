@@ -8,14 +8,14 @@ function App() {
         <div className=" flex items-center justify-center">
           <img src={grcodeimg} alt="QrCodeImg" className="rounded-xl"/>
         </div>
-        <div className="text-center mt-5">
-          <div className="font-bold mb-3">
-            <h1 className="text-color max-w-[22ch] mx-auto">
+        <div className="text-center mt-6">
+          <div className=" mb-4">
+            <h1 className="title-color max-w-[17ch] mx-auto font-bold text-xl">
               Improve your front-end skills by building projects
             </h1>
           </div>
-          <div className="text-sm font-normal">
-            <p className="text-color max-w-[30ch] mx-auto">
+          <div className="text-sm mb-8">
+            <p className="text-color max-w-[25ch] mx-auto font-normal">
               Scan the QR-code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
